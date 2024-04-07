@@ -33,3 +33,8 @@ function rankings(arr){
 }
 
 // or
+
+function rankings(arr){
+  const a = arr.slice().sort((a,b)=>b-a)
+  return arr.map(x=>a.indexOf(x)+1)
+}
