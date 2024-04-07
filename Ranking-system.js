@@ -31,3 +31,5 @@ function rankings(arr){
     return sorted.indexOf(element) +1
     });
 }
+
+// or
